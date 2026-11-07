@@ -1,0 +1,41 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+dist/
+coverage/
+.vite/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE and editor
+.vscode/
+
+# Test reports
+surefire-reports/
+failsafe-reports/
+
+# Temporary files
+*.tmp
+*.swp
